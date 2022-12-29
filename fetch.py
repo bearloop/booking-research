@@ -2,7 +2,7 @@ from utils import fetch, find_offset, clean_up
 from datetime import datetime
 import pandas as pd
 
-city_name = 'Milos'
+city_name = 'Gennadi'
 current_date = datetime.strftime(datetime.today(), "%Y-%m-%d")
 file_name = './assets/{city}, {date}.csv'.format(city=city_name, date=current_date)
 print(file_name)
